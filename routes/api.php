@@ -20,6 +20,14 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('/pizzas', 'PizzaController@index');
 Route::post('/addCart', 'CartController@addToCart');
 
+Route::get('dbtest', function(Request $request) {
+    try {
+        DB::connection()->getPdo();
+    } catch (\Exception $e) {
+        die("Could not connect to the database.  Please check your configuration. error:" . $e );
+    }
+});
+
 Route::group([
     'prefix' => 'auth'
 ], function () {
