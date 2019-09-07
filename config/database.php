@@ -45,7 +45,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => 'http://178.128.175.88/phpmyadmin/',
+            'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'http://178.128.175.88/phpmyadmin/'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
