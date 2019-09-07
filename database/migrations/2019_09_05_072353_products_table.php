@@ -18,7 +18,7 @@ class ProductsTable extends Migration
             $table->bigIncrements('id');
             $table->string('productName');
             $table->string('productCategory')->unique();
-            $table->timestamp('productImage')->nullable();
+            $table->string('productImage');
             $table->string('productPrice');
             $table->string('productDescription');
             $table->string('inStock');

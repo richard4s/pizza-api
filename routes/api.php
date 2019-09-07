@@ -17,6 +17,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('/pizzas', 'PizzaController@index');
+Route::post('/addCart', 'CartController@addToCart');
+
 Route::group([
     'prefix' => 'auth'
 ], function () {
