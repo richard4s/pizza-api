@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba028745-1df9-4736-9256-b5c2ebf82ff7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
@@ -167,7 +168,7 @@
       <workItem from="1567824102058" duration="20177000" />
       <workItem from="1568121491714" duration="311000" />
       <workItem from="1569494169155" duration="909000" />
-      <workItem from="1569495556276" duration="5649000" />
+      <workItem from="1569495556276" duration="11532000" />
     </task>
     <servers />
   </component>
