@@ -19,6 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/pizzas', 'PizzaController@index');
 Route::post('/addCart', 'CartController@addToCart');
+Route::get('/pizzas/{id}', 'PizzaController@onePizza');
 
 Route::get('dbtest', function(Request $request) {
     try {

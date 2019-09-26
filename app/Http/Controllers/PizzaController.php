@@ -20,4 +20,10 @@ class PizzaController extends Controller {
         return response()->json(['success' => 'You have returned all pizzas successfully!',
                                     'pizza' => $allPizzas], 200);
     }
+
+    public function onePizza($id = null) {
+        $pizza =  DB::table('products')->where('id', '=', $id)->first();
+        return response()->json(['success' => 'Pizza Found Successfully',
+                                    'pizza' => $pizza], 200);
+    }
 }
